@@ -2,7 +2,7 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title><?php echo $site_name; ?> Timemap</title>
+		<title><?php echo $site_name; ?> <?php echo Kohana::lang('timemap.timemap'); ?></title>
 		<?php
 		// System Files
 		echo html::stylesheet($css_url."media/css/openlayers","",TRUE);
@@ -64,8 +64,8 @@
 				</div>
 				<div class="underlinemenu">
 					<ul>
-						<li><a href="<?php echo url::base(); ?>">Home</a></li>
-						<li><a href="<?php echo url::site()."timemap/"; ?>" class="selected">Time Map</a></li>
+						<li><a href="<?php echo url::base(); ?>"><?php echo Kohana::lang('timemap.home'); ?></a></li>
+						<li><a href="<?php echo url::site()."timemap/"; ?>" class="selected"><?php echo Kohana::lang('timemap.timemap'); ?></a></li>
 					</ul>
 				</div>
 			</td>
