@@ -25,7 +25,7 @@
 					mapId: "map",               // Id of map div element (required)
 					timelineId: "timeline",     // Id of timeline div element (required) 
 					options: {
-						eventIconPath: "<?php echo url::base(); ?>plugins/timemap/media/timemap/img/"
+						eventIconPath: "<?php echo url::base(); ?>plugins/timemap/media/timemap/images/"
 					},
 					datasets: [
 						{
