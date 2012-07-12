@@ -41,7 +41,7 @@
 								// lower cutoff date for data
 								dataMinDate: "<?php echo $start_date; ?>",
 								// four months in milliseconds
-								interval: 10368000000,   
+								interval: 86400000,   
 								// function to turn date into string appropriate for service
 								formatDate: function(d) {
 									return TimeMap.util.formatDate(d, 1);
