@@ -11,6 +11,8 @@ author website:
 == Description ==
 Create Timemaps (Combination of Map Slider and Map)
 
+Thanks Nick Rabinowitz!
+
 == Installation ==
 1. Copy the entire /timemap/ directory into your /plugins/ directory.
 2. Activate the plugin.

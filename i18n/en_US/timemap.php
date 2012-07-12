@@ -1,5 +1,5 @@
 <?php
 	$lang = array(
-	'timemap' => 'Timemap',
+	'timemap' => 'Time Map',
 	);
 ?>
